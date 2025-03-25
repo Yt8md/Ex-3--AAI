@@ -4,7 +4,6 @@
 <H3>DATE: 25/03/2025</H3>
 <H1 ALIGN =CENTER> Implementation of Approximate Inference in Bayesian Networks
 </H1>
-
 ## Aim: 
    To construct a python program to implement approximate inference using Gibbs Sampling.</br>
 ## Algorithm:
@@ -32,7 +31,6 @@
     <li>Use .value_counts(normalize=True) on the samples of the query_variable to calculate approximate probabilities.</li></ul>
     Step 7:Print Approximate Probabilities:<br>
     <ul><li>Print the calculated approximate probabilities for the specified query_variable.</li></ul>
-
 
 ## Program:
 ```
@@ -113,13 +111,8 @@ query_result= samples[query_variable].value_counts(normalize=True)
 # print the approximate probabilities
 print("\n Approximate Probabilities of {}".format(query_variable))
 print(query_result)
-
 ```
-
 ## Output:
-
 ![image](https://github.com/user-attachments/assets/f1956854-e035-4b9e-9e1b-f8396143c058)
-
-
 ## Result:
 Thus, Gibb's Sampling( Approximate Inference method) is succuessfully implemented using python.
